@@ -1,0 +1,23 @@
+{
+  "name": "qr-code-component-main",
+  "version": "1.0.0",
+  "description": "![Design preview for the QR code component coding challenge](./design/desktop-preview.jpg)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "npx tailwindcss -i ./src/input.css -o ./dist/output.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bluesky1992-web/qr-code-component-main.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bluesky1992-web/qr-code-component-main/issues"
+  },
+  "homepage": "https://github.com/bluesky1992-web/qr-code-component-main#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.2.7"
+  }
+}
