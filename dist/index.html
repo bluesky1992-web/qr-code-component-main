@@ -1,6 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- displays site properly based on user's device -->
@@ -9,22 +16,43 @@
       rel="icon"
       type="image/png"
       sizes="32x32"
-      href="./images/favicon-32x32.png"
+      href="../images/favicon-32x32.png"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@700&family=Outfit:wght@400;700&display=swap"
+      rel="stylesheet"
     />
 
     <title>Frontend Mentor | QR code component</title>
 
     <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   </head>
-  <body>
-    Improve your front-end skills by building projects Scan the QR code to visit
-    Frontend Mentor and take your coding skills to the next level
-
-    <div class="">
-      Challenge by
+  <body class="bg-slate-300 flex flex-col items-center justify-center h-screen">
+    <div
+      class="w-56 h-96 bg-white rounded-[5%] font-sans drop-shadow-lg hover:drop-shadow-2xl"
+    >
+      <img
+        class="px-2 py-2"
+        style="border-radius: 7%"
+        src="../images/image-qr-code.png"
+        alt="qr-image-qr-code"
+      />
+      <h1 class="text-center text-sm px-5 py-2 font-semibold text-sky-900">
+        Improve your front-end skills by building projects
+      </h1>
+      <p class="text-xs text-center px-5 py-3 text-slate-400">
+        Scan the QR code to visit Frontend Mentor and take your coding skills to
+        the next level
+      </p>
+    </div>
+    <small class="whitespace-nowrap mt-[12%]">
       <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
         >Frontend Mentor</a
-      >. Coded by <a href="#">Your Name Here</a>.
-    </div>
+      >. Coded by
+      <a href="https://github.com/bluesky1992-web"><i class="fa-brands fa-github"></i> Ali ibrahim</a
+      >.</small
+    >
   </body>
 </html>
